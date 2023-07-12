@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Sample HTML</title>
+</head>
+<body>
+    
+    <center>
+        <h1>Registration form</h1>
+        <table>
+            <form method="POST" action="" enctype="multipart/form-data">
+                <tr>
+                    <td><label>Enter the name :</label></td>
+                    <td><input type="text" name="name" id="name"></td>
+                </tr>
+                <tr>
+                    <td><label>Enter the email :</label></td>
+                    <td><input type="email" name="email" id="email"></td>
+                </tr>
+                <tr>
+                    <td><label>Enter the phone :</label></td>
+                    <td><input type="number" name="phone" id="phone"></td>
+                </tr>
+                <tr>
+                    <td><label>Enter the password:</label></td>
+                    <td><input type="password" name="pass" id="pass"></td>
+                </tr>
+                <tr>
+                    <td><label>Select file:</label></td>
+                    <td><input type="file" name="file" id="file"></td>
+                </tr>
+                <tr>
+                    <td><label>Enter time:</label></td>
+                    <td><input type="time" name="time" id="time"></td>
+                </tr>
+                <tr>
+                    <td><label>Enter date:</label></td>
+                    <td><input type="date" name="date" id="date"></td>
+                </tr>
+                <tr>
+                    <td><label>Select country :</label></td>
+                    <td>
+                        <select name="country">
+                            <option value="">--select--</option>
+                            <option value="1">option1</option>
+                            <option value="2">option2</option>
+                            <option value="3">option3</option>
+                            <option value="4">option4</option>
+                        </select>
+                    </td>
+
+                </tr>
+                <tr>
+                    <td><label>Select the gender:</label></td>
+                    <td>
+                        <input type="radio" name="gender" value="female" id="female">Female
+                        <input type="radio" name="gender" value="male" id="male">male
+                    </td>
+                </tr>
+                <tr>
+                    <td><label>Select qualification:</label></td>
+                    <td>
+                        <input type="checkbox" name="qualification" value="sslc" id="sslc">SSLC
+                        <input type="checkbox" name="qualification" value="plustwo" id="plustwo">PLUS TWO
+                    </td>
+                </tr>
+                <tr>
+                    <td><label>Enter the address:</label></td>
+                    <td><textarea name="address" rows="5"></textarea></td>
+                </tr>
+                <tr>
+                    <td colspan="2">
+                    <center>
+                        <input type="submit" name="submit" value="Register">
+                        <button type="reset" name="reset">Reset</button>
+                    </center>
+                    </td>
+                </tr>
+            </form>
+        </table>
+    </center>
+</body>
+</html>
